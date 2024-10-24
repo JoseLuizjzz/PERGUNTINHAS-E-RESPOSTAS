@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --fonte-destaque:"Bebas Neue";
+    --fonte-texto:"Poppins";
+    --cor1: #000000;
+    --cor2:#14213d;
+    --cor3:#fca311;
+    --cor4:#e5e5e5;
+    --cor5:#9a031e;
+}
+
+body{
+    background-color:var(--cor3)
+    font-family:var(--fonte-texto);
+}
+footer{
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor2)
+    paddin: 1em;
+}
+
+footerp{
+    font-size:1.2rem;
+    color:var(--cor4);
+}
+
+footer a{
+    text-decoration:none;
+    color:var(--cor5)
+}
